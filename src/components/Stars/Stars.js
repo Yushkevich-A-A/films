@@ -19,7 +19,7 @@ function Stars(props) {
     return (
         <ul className='card-body-stars'>
             {
-            arrStars.map( item => <Star key={item.id}/> )
+            arrStars.map( item => <li key={item.id} className='card-body-star'><Star/></li> )
             }
         </ul>
     )
